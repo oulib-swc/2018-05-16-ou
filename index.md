@@ -13,8 +13,8 @@ enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD
 instructor: ["Claire Curry", "Phillip Doehle", "Fred Reiss"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Traci Popejoy" ,"Jennifer Koch", "Jim Ferguson", "Josh Hatzis", "Katy Felkner", "Mark Laufersweiler"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["laufers@ou.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: "https://docs.google.com/document/d/1ZNGHVaBoNVDfYdyzcsmG_JSIjjElA1p3K08L0tnb-d8/edit?usp=sharing"  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+collaborative_notes: "https://docs.google.com/document/d/1OdTq3v1gixhtqByn09eTo9eDIKXTdwD0ukTa21bMlWk/edit?usp=sharing"  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+eventbrite:   "45737007621"        # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -41,7 +41,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
   width="100%"
-  height="248px"
+  height="278px"
   scrolling="auto">
 </iframe>
 {% endif %}
