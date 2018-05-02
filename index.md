@@ -13,7 +13,7 @@ enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD
 instructor: ["Claire Curry", "Phillip Doehle", "Fred Reiss"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Traci Popejoy" ,"Jennifer Koch", "Jim Ferguson", "Josh Hatzis", "Katy Felkner", "Mark Laufersweiler"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["laufers@ou.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: "https://docs.google.com/document/d/1ZNGHVaBoNVDfYdyzcsmG_JSIjjElA1p3K08L0tnb-d8/edit?usp=sharing"  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -503,7 +503,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </div>
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
-
+<!-- 
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
            the Jupyter notebook.
@@ -596,7 +596,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
-
+ -->
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
@@ -692,6 +692,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <p><strong>If you installed Anaconda, it also has a copy of SQLite
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
+
+    <p> There is also a good tool for working with SQLite databases: <a href="http://sqlitebrowser.org/">DB Browser for SQLite</a> </p>
+
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
 
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
